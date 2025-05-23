@@ -23,8 +23,6 @@ const calculateWinner = (squares) => {
   return { winner: null, winnerRow: null };
 };
 
-
-
 const getLocation = (move) => {
   const locationMap = {
     0: 'row: 1, col: 1',

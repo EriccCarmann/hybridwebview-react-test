@@ -64,11 +64,11 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Resources\Raw\wwwroot\" />
+      <MauiAsset Include="wwwroot\**" LogicalName="wwwroot\%(RecursiveDir)%(Filename)%(Extension)" />
     </ItemGroup>
 
     <ItemGroup>
-      <MauiAsset Include="wwwroot\**" LogicalName="wwwroot\%(RecursiveDir)%(Filename)%(Extension)" />
+      <Folder Include="Resources\Raw\" />
     </ItemGroup>
 
 </Project>
