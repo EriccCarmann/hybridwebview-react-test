@@ -6,6 +6,6 @@
     <VerticalStackLayout>
           <ejl:HybridWebView
               MainFile="index.html"
-              HybridAssetRoot="react-tutorial-tic-tac-toe-master/public"/>
+              HybridAssetRoot="root"/>
     </VerticalStackLayout>
 </ContentPage>
