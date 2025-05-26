@@ -7,5 +7,9 @@
           <ejl:HybridWebView
               MainFile="index.html"
               HybridAssetRoot="root"/>
+          <ejl:HybridWebView
+              VerticalOptions="FillAndExpand" 
+              MainFile="index.html"
+              HybridAssetRoot="jokegenerator/build"/>
     </VerticalStackLayout>
 </ContentPage>

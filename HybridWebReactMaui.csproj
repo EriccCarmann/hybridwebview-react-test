@@ -20,6 +20,11 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
 
+        <DefaultItemExcludes>
+            $(DefaultItemExcludes);
+            Resources/Raw/jokegenerator/node_modules/**
+        </DefaultItemExcludes>
+        
         <!-- Display name -->
         <ApplicationTitle>HybridWebReactMaui</ApplicationTitle>
 
@@ -62,5 +67,4 @@
         <PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)"/>
         <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.1"/>
     </ItemGroup>
-
 </Project>
