@@ -4,8 +4,11 @@
              xmlns:ejl="clr-namespace:HybridWebView;assembly=HybridWebView"
              x:Class="HybridWebReactMaui.MainPage">
     <VerticalStackLayout>
+          <!--<ejl:HybridWebView
+              MainFile="index.html"
+              HybridAssetRoot="root"/>-->
           <ejl:HybridWebView
               MainFile="index.html"
-              HybridAssetRoot="root"/>
+              HybridAssetRoot="jokegenerator/build"/>
     </VerticalStackLayout>
 </ContentPage>
